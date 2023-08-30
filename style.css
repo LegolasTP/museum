@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    overflow: hidden;
+
+}
+
+.item{
+    float: left;
+    background-color: rgba(86, 47, 216, 0.349);
+    color: rgb(116, 71, 158);
+    padding: 40px 20px;
+    width: 25%;
+    text-align: center;
+    font-family: serif;
+    font-size: 125%;
+
+
+
+}
+.contato{
+    background-image: linear-gradient(to right, rgba(159, 117, 226), rgba(19, 5, 27, 0.548));
+
+}
+*{box-sizing: border-box;}
+
+.item:hover{
+    background-color: rgba(116, 71, 158);
+    color: rgb(247, 247, 247);
+    transition:1.5s ;
+    
+}
+
+.noticias{
+    float: left;
+    width: 50%;
+    height: 1000px;
+    text-align: center;
+    border: 2px solid rgb(159, 117, 226);
+    font-family: serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 125%;
+
+}
+.noticias:hover{
+    background-color: rgba(116, 71, 158);
+    color: rgb(247, 247, 247);
+    transition:1.5s ;
+
+
+}
+
+.n1{
+    background-image: url("https://images.memphistours.com/large/a4e52107bc460c9324a3776257c76809.jpg");
+    
+}
+.n2{
+    background-image: url("https://arteref.com/wp-content/uploads/2019/04/mona-lisa-leonardo-da-vinci.jpg");
+}
+
+.rodape{
+    float: left;
+    text-align: center;
+    color: rgb(116, 71, 158);
+    background-color: rgba(190, 85, 231, 0.521);
+    height: 200px;
+    width: 50%;
+    font-family: serif;
+    border: 2px solid rgb(159, 117, 226);
+    background-image: linear-gradient(to right, rgba(190, 85, 231, 0.521), rgba(160, 79, 207, 0.548));
+
+    
+
+}
+
+.rodape:hover{
+    background-color: rgba(116, 71, 158);
+    color: rgb(247, 247, 247);
+    transition:1.5s ;
+
+}
+
+.fundo{
+    text-align: center;
+    float: left;
+    height: 100px;
+    width: 33.3%;
+    padding-top: 50px;
+
+
+}
